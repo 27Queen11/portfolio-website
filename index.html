@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>My Portfolio</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">My Portfolio</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="home" class="hero-section d-flex align-items-center">
+  <div class="container text-center">
+    <h1>Hello, I'm Jovina Queency Fernandes</h1>
+    <p class="lead">Frontend Developer | UI/UX Learner | BCA Student</p>
+
+    <a href="#projects" class="btn btn-primary btn-lg mt-3">
+      View Projects
+    </a>
+  </div>
+</section>
+
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">About Me</h2>
+
+    <p class="text-center">
+      I am passionate about web development and creating attractive websites currently pursuing BCA.
+      I have knowledge of frontend technologies like Html, CSS, JavaScript, Bootstrap, and I am currently learning backend development using Node.js and MongoDB.
+
+    </p>
+    <p>
+      Apart from coding, I also enjoy designing, editing multimedia content.
+      and exploring innovative technologies that help create better and more engaging digital experiencies.
+    </p>
+  </div>
+</section>
+
+<section id="skills" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Skills</h2>
+
+    <div class="row text-center">
+
+      <div class="col-md-3 mb-4">
+        <div class="card shadow p-3">
+          <h4>HTML</h4>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card shadow p-3">
+          <h4>CSS</h4>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card shadow p-3">
+          <h4>JavaScript</h4>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card shadow p-3">
+          <h4>Bootstrap</h4>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="py-5">
+  <div class="container">
+
+    <h2 class="text-center mb-5">Projects</h2>
+
+    <div class="row" id="project-container">
+
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+
+    <h2 class="text-center mb-5">Contact Me</h2>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+
+        <form id="contactForm">
+
+          <input type="text" id="name" class="form-control mb-3" placeholder="Your Name" required>
+
+<input type="email" id="email" class="form-control mb-3" placeholder="Your Email" required>
+
+<textarea id="message" class="form-control mb-3" rows="5" placeholder="Message" required></textarea>
+
+          <button class="btn btn-primary w-100">
+            Send Message
+          </button>
+
+        </form>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center p-3">
+  <p>© 2026 My Portfolio Website</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

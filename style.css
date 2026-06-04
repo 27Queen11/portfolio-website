@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(to right, #4c88e1, #6610f2);
+  color: rgb(2, 0, 0);
+}
+
+.card {
+  border: none;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+section {
+  scroll-margin-top: 80px;
+}
